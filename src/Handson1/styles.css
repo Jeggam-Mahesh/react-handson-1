@@ -1,0 +1,28 @@
+.boxing {
+	border: 1px groove black;
+	background-color: bisque;
+	width: 350px;
+	height: 200px;
+	text-align: center;
+	border-radius: 15px;
+	margin-left: 500px;
+}
+.box2{
+	margin-left: 880px;
+}
+.boxing > h1 + p {
+	font-weight: 400;
+	color: brown;
+	margin: 20px;
+
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+
+}
+h1{
+	text-align: center;
+	color:darkblue;
+}
