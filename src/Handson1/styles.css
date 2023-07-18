@@ -5,11 +5,15 @@
 	height: 200px;
 	text-align: center;
 	border-radius: 15px;
-	margin-left: 500px;
+	
 }
-.box2{
-	margin-left: 880px;
+body{
+background-color:aqua;
+/* background-image: linear-gradient(aqua,hotpink);
+background-size: cover;
+background-repeat: no-repeat; */
 }
+
 .boxing > h1 + p {
 	font-weight: 400;
 	color: brown;
@@ -25,4 +29,18 @@
 h1{
 	text-align: center;
 	color:darkblue;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+	.buttons{
+		flex-direction: column;
+	}
+	.box{
+		flex-direction: column;
+	}
 }

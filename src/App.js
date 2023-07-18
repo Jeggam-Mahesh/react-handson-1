@@ -11,10 +11,10 @@ function App() {
 		<>
 			<h1 className="heading">Styling using Functional and Class Component</h1>
 			<div className="buttons">
-				<button onClick={() => setFState(!functionState)} style={{backgroundColor:"blue",height:'70px', color:'white',fontSize:'large'}}>
+				<button onClick={() => setFState(!functionState)} style={{backgroundColor:"blue",height:'70px', color:'white', borderRadius:'30px',fontSize:'large'}}>
 					To see styling in functional component
 				</button>
-				<button onClick={() => setCState(!classState)} style={{backgroundColor:"blue",color:'white',fontSize:'large'}}>
+				<button onClick={() => setCState(!classState)} style={{backgroundColor:"blue",color:'white',height:'70px',borderRadius:'30px',fontSize:'large'}}>
 					To see styling in class component
 				</button>
 			</div>
